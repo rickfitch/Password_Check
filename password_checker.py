@@ -1,6 +1,7 @@
 
 import re
 
+
 # This function checks if a password is valid
 def validate_password(password):
     if len(password) < 8 or len(password) > 20: 
